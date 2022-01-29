@@ -34,6 +34,7 @@ function save(){
 // listent to the click to reset the count
 reset.addEventListener("click", function(){
         saveEl.textContent = "People Entries: "
+        countEl.innerText = 0
 })
 
 
