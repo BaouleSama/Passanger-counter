@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-image: url(/image/bus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+   color: hsl(0, 84%, 44%);
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+}
+
+.btn-modal{
+    padding: 10px 40px;
+    background-color: indianred;
+    color: white;
+}
+
+#save-el{
+    color: rgb(248, 17, 17);
+}
