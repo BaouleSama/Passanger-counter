@@ -28,6 +28,7 @@ function save(){
     saveEl.textContent += saveCount 
     // Reset the count to zero 
     countEl.textContent= 0
+    count =0
     
 }
 
@@ -35,6 +36,7 @@ function save(){
 reset.addEventListener("click", function(){
         saveEl.textContent = "People Entries: "
         countEl.innerText = 0
+        count=0
 })
 
 
